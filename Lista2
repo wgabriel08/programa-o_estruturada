@@ -1,0 +1,38 @@
+#include <stdio.h>
+#define TAM_CIDADE 16;
+
+struct jogo{
+
+int usuarioFifa/*>299 e <1000*/, codCidade;
+float valorArrecadado;// valor entre 1001 e 1000000
+
+};
+
+struct cidade{
+	
+int codCidade;// de 1-9
+char nome[TAM_CIDADE];// todo em toupper
+
+
+};
+
+struct presidente{
+	
+//o programa deverá solicitar assim que for iniciado
+char nome/*O nome do Presidente não poderá ser vazio e nem ultrapassar a quantidade máxima de caracteres definida na diretiva de substituição de texto MAX_NOME*/; //"Gianni Infantino
+char nacionalidade;
+int idade; //função, valores entre 30 e 70
+
+
+};
+
+
+
+
+int main() {
+	
+	
+	
+	
+	return 0;
+}
