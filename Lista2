@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define TAM_CIDADE 16;
 
+
+//ESTRUTURAS
 struct jogo{
 
 int usuarioFifa/*>299 e <1000*/, codCidade;
@@ -23,8 +25,18 @@ char nome/*O nome do Presidente não poderá ser vazio e nem ultrapassar a quant
 char nacionalidade;
 int idade; //função, valores entre 30 e 70
 
-
 };
+
+//Funções
+
+int idade(){
+	int idade;
+	
+	printf("Informe a idade: ");
+	scanf("%d", &idade);
+	
+	return idade;
+}
 
 
 
